@@ -128,7 +128,7 @@ export function Footer() {
             {[
               { to: "/", label: "Home" },
               { to: "/about", label: "About" },
-              { to: "/gallery", label: "Gallery" },
+              { to: "/events", label: "Events" },
             ].map((l) => (
               <li key={l.to}>
                 <Link

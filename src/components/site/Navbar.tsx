@@ -7,7 +7,7 @@ import logoImg from "../../assets/logo.jpg";
 const links = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
-  { to: "/gallery", label: "Gallery" },
+  { to: "/events", label: "Events" },
 ] as const;
 
 export function Navbar() {
